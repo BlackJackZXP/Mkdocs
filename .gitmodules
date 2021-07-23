@@ -1,0 +1,6 @@
+[submodule "blog"]
+	path = blog
+	url = https://github.com/BlackJackZXP/blog.git
+[submodule "site"]
+	path = site
+	url = https://github.com/BlackJackZXP/site.git
