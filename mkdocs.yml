@@ -1,0 +1,36 @@
+site_name: Black Jack
+#site_url: http://www.mkdocs.org
+#site_description: Project documentation with Markdown.
+#site_author: BlackJack
+
+#repo_url: https://github.com/BlackJackZXP
+#edit_uri: ""
+
+#copyright: "Cinder is licensed under the <a href='https://github.com/chrissimpkins/cinder/blob/master/LICENSE.md'>MIT license"
+
+pages:
+- Home : index.md
+- Embedded:
+    - Cortex-M0: 
+       - 存储系统: Memory-System.md
+       - 中断: waiting.md
+    - Cortex-M3/4: waiting.md
+    - STM32L0系列: waiting.md
+- Software: 
+  - Coding Standard: Coding-Standard.md
+- About: about.md
+
+#extra_css:
+#    - css/extra.css
+    
+#copyright: Copyright and Maintained &copy; 2018 <a href="https://github.com/BlackJackZXP">BlackJack</a>.
+#google_analytics: ['UA-27795084-5', 'mkdocs.org']
+
+#plugins:
+#    - search
+
+
+theme:
+  name: null
+  custom_dir: 'cinder'
+ 
